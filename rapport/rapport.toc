@@ -1,0 +1,270 @@
+\select@language {french}
+\contentsline {paragraph}{}{1}
+\contentsline {paragraph}{}{1}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {part}{I\hspace {1em}Pr\IeC {\'e}sentation de l'entreprise}{7}
+\contentsline {chapter}{\numberline {1}Logilab : une entreprise acteur du logiciel libre}{8}
+\contentsline {section}{\numberline {1.1}Activit\IeC {\'e} et domaines de comp\IeC {\'e}tences}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {section}{\numberline {1.2}Le choix de l'\textit {open source} et du libre}{8}
+\contentsline {paragraph}{Un acteur du logiciel libre}{8}
+\contentsline {paragraph}{Des publications \textit {open source}}{8}
+\contentsline {paragraph}{}{9}
+\contentsline {section}{\numberline {1.3}Contexte \IeC {\'e}conomique et situation sur le march\IeC {\'e}}{9}
+\contentsline {subsection}{\numberline {1.3.1}Bilan \IeC {\'e}conomique de l'entreprise}{9}
+\contentsline {paragraph}{Chiffre d'affaires}{9}
+\contentsline {paragraph}{B\IeC {\'e}n\IeC {\'e}fices}{9}
+\contentsline {subsection}{\numberline {1.3.2}Position de Logilab sur le march\IeC {\'e}}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsection}{\numberline {1.3.3}Analyse des risques encourus par l'entreprise}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {chapter}{\numberline {2}Organisation g\IeC {\'e}n\IeC {\'e}rale}{11}
+\contentsline {section}{\numberline {2.1}Organigramme et postes}{11}
+\contentsline {paragraph}{Organigramme et flexibilit\IeC {\'e}}{11}
+\contentsline {paragraph}{Profil des employ\IeC {\'e}s}{12}
+\contentsline {section}{\numberline {2.2}Le d\IeC {\'e}partement Web s\IeC {\'e}mantique}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {subsection}{\numberline {2.2.1}La Biblioth\IeC {\`e}que nationale de France}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {subsection}{\numberline {2.2.2}Fevis}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {subsection}{\numberline {2.2.3}Brainomics}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {section}{\numberline {2.3}Composition de l'\IeC {\'e}quipe projet}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{13}
+\contentsline {part}{II\hspace {1em}M\IeC {\'e}thodologie de l'entreprise et organisation du travail}{14}
+\contentsline {chapter}{\numberline {3}Gestion de projet}{15}
+\contentsline {section}{\numberline {3.1}M\IeC {\'e}thode agile}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {section}{\numberline {3.2}Proc\IeC {\'e}dures de d\IeC {\'e}veloppement du projet}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {paragraph}{}{16}
+\contentsline {paragraph}{Ordonnancement des t\IeC {\^a}ches}{16}
+\contentsline {paragraph}{Version et livraison}{17}
+\contentsline {section}{\numberline {3.3}Contr\IeC {\^o}le et \IeC {\'e}change avec le client}{17}
+\contentsline {paragraph}{}{17}
+\contentsline {paragraph}{}{17}
+\contentsline {paragraph}{}{17}
+\contentsline {chapter}{\numberline {4}Plan Qualit\IeC {\'e}}{18}
+\contentsline {section}{\numberline {4.1}Objectifs qualit\IeC {\'e}}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {section}{\numberline {4.2}Mise en \IeC {\oe }uvre du plan Qualit\IeC {\'e}}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {subsection}{\numberline {4.2.1}Tra\IeC {\c c}abilit\IeC {\'e} et conception modulaire}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {subsection}{\numberline {4.2.2}Tests}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {subsection}{\numberline {4.2.3}Accroissement des comp\IeC {\'e}tences}{19}
+\contentsline {paragraph}{Formations}{19}
+\contentsline {paragraph}{Vsprint}{19}
+\contentsline {section}{\numberline {4.3}Bilan et retours d'exp\IeC {\'e}rience d'un projet}{19}
+\contentsline {paragraph}{}{19}
+\contentsline {chapter}{\numberline {5}Outils utilis\IeC {\'e}s}{20}
+\contentsline {section}{\numberline {5.1}Cubicweb}{20}
+\contentsline {subsection}{\numberline {5.1.1}Les valeurs ajout\IeC {\'e}s de CubicWeb}{20}
+\contentsline {paragraph}{}{20}
+\contentsline {paragraph}{Des composants assemblables et adaptables}{20}
+\contentsline {paragraph}{Prototypage rapide}{20}
+\contentsline {paragraph}{Une plateforme centr\IeC {\'e}e sur les donn\IeC {\'e}es}{20}
+\contentsline {paragraph}{Une libert\IeC {\'e} pour le client}{20}
+\contentsline {paragraph}{Respect des standards ouverts d'Internet}{20}
+\contentsline {subsection}{\numberline {5.1.2}Architecture g\IeC {\'e}n\IeC {\'e}rale de CubicWeb}{21}
+\contentsline {paragraph}{}{21}
+\contentsline {paragraph}{L'entrep\IeC {\^o}t de donn\IeC {\'e}es}{21}
+\contentsline {paragraph}{Mod\IeC {\'e}lisation des donn\IeC {\'e}es}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{Requ\IeC {\^e}tes RQL}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{}{23}
+\contentsline {paragraph}{G\IeC {\'e}n\IeC {\'e}ration de tables SQL}{23}
+\contentsline {paragraph}{Web engine}{23}
+\contentsline {subsection}{\numberline {5.1.3}Le cube}{24}
+\contentsline {paragraph}{}{24}
+\contentsline {paragraph}{Cr\IeC {\'e}ation et lancement d'une instance}{24}
+\contentsline {paragraph}{Gestion d'\IeC {\'e}v\IeC {\`e}nements}{24}
+\contentsline {section}{\numberline {5.2}Autres outils techniques}{24}
+\contentsline {subsection}{\numberline {5.2.1}Mercurial : gestionnaire de version}{24}
+\contentsline {paragraph}{}{24}
+\contentsline {subsection}{\numberline {5.2.2}Python : langage de programmation}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {subsection}{\numberline {5.2.3}Debian GNU Linux}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {subsection}{\numberline {5.2.4}Entrep\IeC {\^o}t de l'extranet}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {section}{\numberline {5.3}Outils de communication et planification interne}{26}
+\contentsline {subsection}{\numberline {5.3.1}Forum}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {subsection}{\numberline {5.3.2}Points d'avancement}{26}
+\contentsline {paragraph}{Synth\IeC {\`e}se hebdomadaire}{26}
+\contentsline {paragraph}{R\IeC {\'e}union mensuelle par d\IeC {\'e}partement}{26}
+\contentsline {subsection}{\numberline {5.3.3}Outil de planification du travail : JPL}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {part}{III\hspace {1em}D\IeC {\'e}roulement du stage}{27}
+\contentsline {chapter}{\numberline {6}Le sujet}{28}
+\contentsline {section}{\numberline {6.1}Probl\IeC {\'e}matique}{28}
+\contentsline {paragraph}{}{28}
+\contentsline {section}{\numberline {6.2}Un sujet innovant et prospectif}{28}
+\contentsline {paragraph}{}{28}
+\contentsline {paragraph}{}{28}
+\contentsline {section}{\numberline {6.3}R\IeC {\^o}le pr\IeC {\'e}d\IeC {\'e}fini et r\IeC {\^o}le r\IeC {\'e}el}{28}
+\contentsline {paragraph}{}{28}
+\contentsline {chapter}{\numberline {7}Analyse du besoin r\IeC {\'e}el et \IeC {\'e}tudes}{30}
+\contentsline {section}{\numberline {7.1}Les objectifs attendus}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {section}{\numberline {7.2}Les options \IeC {\'e}valu\IeC {\'e}es}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {subsection}{\numberline {7.2.1}Reasoners}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {paragraph}{}{31}
+\contentsline {subsection}{\numberline {7.2.2}Les syst\IeC {\`e}mes experts}{31}
+\contentsline {paragraph}{}{31}
+\contentsline {paragraph}{La base de faits}{31}
+\contentsline {paragraph}{Les r\IeC {\`e}gles}{31}
+\contentsline {paragraph}{Le moteur d'inf\IeC {\'e}rence}{31}
+\contentsline {subsubsection}{Exemple d'un syst\IeC {\`e}me expert}{31}
+\contentsline {paragraph}{}{31}
+\contentsline {subsection}{\numberline {7.2.3}Les bases de donn\IeC {\'e}es d\IeC {\'e}ductives}{31}
+\contentsline {paragraph}{}{31}
+\contentsline {chapter}{\numberline {8}Cr\IeC {\'e}ation du cube syst\IeC {\`e}me expert}{33}
+\contentsline {section}{\numberline {8.1}Objectifs et cas d'utilisation}{33}
+\contentsline {subsection}{\numberline {8.1.1}Objectifs}{33}
+\contentsline {paragraph}{}{33}
+\contentsline {subsection}{\numberline {8.1.2}Cas d'utilisation}{33}
+\contentsline {paragraph}{}{33}
+\contentsline {section}{\numberline {8.2}Base de faits}{34}
+\contentsline {subsection}{\numberline {8.2.1}Les faits issus du Cube Forum}{34}
+\contentsline {paragraph}{}{34}
+\contentsline {paragraph}{Fonctionnement de Pyke}{35}
+\contentsline {subsection}{\numberline {8.2.2}Constitution de la base de faits}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {subsection}{\numberline {8.2.3}Mise \IeC {\`a} jour des faits}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {section}{\numberline {8.3}Base de r\IeC {\`e}gles}{36}
+\contentsline {subsection}{\numberline {8.3.1}Les r\IeC {\`e}gles}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {subsection}{\numberline {8.3.2}Constitution de la base de r\IeC {\`e}gles}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {section}{\numberline {8.4}Moteur d'inf\IeC {\'e}rences}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {subsection}{\numberline {8.4.1}Activation des r\IeC {\`e}gles}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {subsection}{\numberline {8.4.2}Algorithme de cha\IeC {\^\i }nage-avant par saturation}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {subsection}{\numberline {8.4.3}Pattern Matching}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {section}{\numberline {8.5}Sch\IeC {\'e}ma du cube \textit {Expert System}}{38}
+\contentsline {paragraph}{}{38}
+\contentsline {paragraph}{}{38}
+\contentsline {section}{\numberline {8.6}R\IeC {\'e}sultats obtenus}{38}
+\contentsline {paragraph}{}{38}
+\contentsline {section}{\numberline {8.7}Apports personnels et pour Logilab}{39}
+\contentsline {paragraph}{}{39}
+\contentsline {chapter}{\numberline {9}R\IeC {\'e}\IeC {\'e}criture de requ\IeC {\^e}tes RQL}{40}
+\contentsline {section}{\numberline {9.1}Les cas d'utilisations}{40}
+\contentsline {paragraph}{}{40}
+\contentsline {subsection}{\numberline {9.1.1}La r\IeC {\'e}\IeC {\'e}criture de relation}{40}
+\contentsline {paragraph}{}{40}
+\contentsline {subsection}{\numberline {9.1.2}Les attributs calcul\IeC {\'e}s}{41}
+\contentsline {subsection}{\numberline {9.1.3}Le param\IeC {\`e}tre g\IeC {\'e}n\IeC {\'e}rique}{41}
+\contentsline {paragraph}{}{41}
+\contentsline {paragraph}{Exemple}{42}
+\contentsline {paragraph}{Param\IeC {\`e}tre g\IeC {\'e}n\IeC {\'e}rique et r\IeC {\'e}\IeC {\'e}criture}{42}
+\contentsline {paragraph}{}{42}
+\contentsline {section}{\numberline {9.2}\IeC {\'E}criture de tests}{42}
+\contentsline {paragraph}{Test driven development}{42}
+\contentsline {subsection}{\numberline {9.2.1}R\IeC {\'e}\IeC {\'e}criture de relation}{42}
+\contentsline {paragraph}{}{43}
+\contentsline {subsection}{\numberline {9.2.2}R\IeC {\'e}\IeC {\'e}criture d'attribut calcul\IeC {\'e}}{43}
+\contentsline {section}{\numberline {9.3}Int\IeC {\'e}gration \IeC {\`a} la structure en place}{44}
+\contentsline {subsection}{\numberline {9.3.1}Sch\IeC {\'e}ma Yams et CubicWeb}{44}
+\contentsline {paragraph}{Sch\IeC {\'e}ma Yams}{44}
+\contentsline {paragraph}{CubicWeb}{44}
+\contentsline {subsection}{\numberline {9.3.2}Mises \IeC {\`a} jour des donn\IeC {\'e}es}{44}
+\contentsline {paragraph}{Coh\IeC {\'e}rence des donn\IeC {\'e}es}{44}
+\contentsline {paragraph}{D\IeC {\'e}clenchement de la mise \IeC {\`a} jour}{44}
+\contentsline {paragraph}{Impl\IeC {\'e}mentation du hook}{44}
+\contentsline {paragraph}{Migration des applications}{44}
+\contentsline {subsection}{\numberline {9.3.3}G\IeC {\'e}n\IeC {\'e}ration de tables SQL}{44}
+\contentsline {section}{\numberline {9.4}Communication autour du projet}{44}
+\contentsline {paragraph}{}{44}
+\contentsline {section}{\numberline {9.5}Apports personnels et pour Logilab}{45}
+\contentsline {paragraph}{}{45}
+\contentsline {paragraph}{}{45}
+\contentsline {chapter}{\numberline {10}R\IeC {\'e}alisations secondaires}{46}
+\contentsline {section}{\numberline {10.1}Vsprint}{46}
+\contentsline {paragraph}{Liste des sujets affect\IeC {\'e}s}{46}
+\contentsline {paragraph}{Imagesearch}{46}
+\contentsline {paragraph}{Graphe des projets}{46}
+\contentsline {paragraph}{Bilan des Vsprint}{46}
+\contentsline {section}{\numberline {10.2}Cr\IeC {\'e}ation d'un cube d'import CSV}{46}
+\contentsline {subsection}{\numberline {10.2.1}Objectifs}{46}
+\contentsline {subsection}{\numberline {10.2.2}Impl\IeC {\'e}mentation}{46}
+\contentsline {paragraph}{Fonctionnalit\IeC {\'e}s impl\IeC {\'e}ment\IeC {\'e}es}{46}
+\contentsline {paragraph}{Fonctionnement}{49}
+\contentsline {paragraph}{Apports personnels et pour Logilab}{49}
+\contentsline {chapter}{\numberline {11}Conclusion}{50}
+\contentsline {paragraph}{}{50}
+\contentsline {paragraph}{}{50}
+\contentsline {paragraph}{}{50}
+\contentsline {paragraph}{}{50}
+\contentsline {paragraph}{}{50}
+\contentsline {chapter}{\numberline {A}Algorithmes}{51}
+\contentsline {section}{\numberline {A.1}Algorithme de cha\IeC {\^\i }nage-arri\IeC {\`e}re}{51}
+\contentsline {paragraph}{Struture et fonctionnement}{51}
+\contentsline {paragraph}{Algorithme de cha\IeC {\^\i }nage-arri\IeC {\`e}re}{51}
+\contentsline {paragraph}{}{51}
+\contentsline {paragraph}{}{51}
+\contentsline {paragraph}{}{52}
+\contentsline {chapter}{\numberline {B}Code}{53}
+\contentsline {section}{\numberline {B.1}Hook de mise \IeC {\`a} jour des donn\IeC {\'e}es d'un attribut calcul\IeC {\'e}}{53}
+\contentsline {chapter}{\numberline {C}Glossaire}{55}
+\contentsline {paragraph}{Cloud computing}{55}
+\contentsline {paragraph}{CSS3}{55}
+\contentsline {paragraph}{CSV}{55}
+\contentsline {paragraph}{Cube}{55}
+\contentsline {paragraph}{CubicWeb}{55}
+\contentsline {paragraph}{Debian}{55}
+\contentsline {paragraph}{DOAP}{55}
+\contentsline {paragraph}{FOAF}{55}
+\contentsline {paragraph}{Framework}{55}
+\contentsline {paragraph}{Hadoop}{55}
+\contentsline {paragraph}{HTML5}{55}
+\contentsline {paragraph}{Javascript}{55}
+\contentsline {paragraph}{Mercurial}{55}
+\contentsline {paragraph}{Moteur d'inf\IeC {\'e}rences}{55}
+\contentsline {paragraph}{Ontologie}{55}
+\contentsline {paragraph}{Open data}{56}
+\contentsline {paragraph}{Open source}{56}
+\contentsline {paragraph}{Pattern variable}{56}
+\contentsline {paragraph}{Pyke}{56}
+\contentsline {paragraph}{Python}{56}
+\contentsline {paragraph}{RDF}{56}
+\contentsline {paragraph}{Reasoner}{56}
+\contentsline {paragraph}{Responsive Design}{56}
+\contentsline {paragraph}{RQL}{56}
+\contentsline {paragraph}{SIOC}{56}
+\contentsline {paragraph}{Sparql}{56}
+\contentsline {paragraph}{Syst\IeC {\`e}me experts}{56}
+\contentsline {paragraph}{W3C}{56}
+\contentsline {paragraph}{Web s\IeC {\'e}mantique}{56}
+\contentsline {paragraph}{Yams}{56}
+\contentsline {paragraph}{Vsprint}{56}
