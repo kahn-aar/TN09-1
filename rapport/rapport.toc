@@ -137,8 +137,8 @@
 \contentsline {paragraph}{Le moteur d'inf\IeC {\'e}rence}{31}
 \contentsline {subsubsection}{Exemple d'un syst\IeC {\`e}me expert}{31}
 \contentsline {paragraph}{}{31}
-\contentsline {subsection}{\numberline {7.2.3}Les bases de donn\IeC {\'e}es d\IeC {\'e}ductives}{31}
-\contentsline {paragraph}{}{31}
+\contentsline {subsection}{\numberline {7.2.3}Les bases de donn\IeC {\'e}es d\IeC {\'e}ductives}{32}
+\contentsline {paragraph}{}{32}
 \contentsline {chapter}{\numberline {8}Cr\IeC {\'e}ation du cube syst\IeC {\`e}me expert}{33}
 \contentsline {section}{\numberline {8.1}Objectifs et cas d'utilisation}{33}
 \contentsline {subsection}{\numberline {8.1.1}Objectifs}{33}
