@@ -303,12 +303,9 @@ Le processus de développement permet de disposer d’une version fonctionnelle 
 
 
 \paragraph{Ordonnancement des tâches}
-Dans le contexte d'un projet client, l'itération des tâches est déduite du cahier des charges et se fait par l'élaboration de tickets, précisant la durée de la tâche, son importance et son statut. Un exemple de ticket se trouve ci-dessous. Un ticket est caractérisé par le nom de la personne qui traite le ticket, l'état du ticket, une description et des commentaires. Il peut avoir quatre états : \textit{en cours}, \textit{ouvert}, \textit{fait} ou \textit{en attente de retour}. La description du ticket reflète le besoin du client. Il est mis à jour si le besoin évolue ou s'il est précisé. Sur chaque ticket, un mécanisme de commentaires permet un dialogue entre Logilab et le client (demandes de précisions, alternatives techniques, compléments d’information, etc.) De plus, la charge de réalisation de chaque ticket (en jours.hommes) est évaluée par les personnes susceptibles de le réaliser afin d'être la plus réelle possible. Travaillant dans le cadre d'un projet interne, l'élaboration des tickets décrivant les travaux que je devais réaliser a été directement faite par mon tuteur. La version du projet est construite à partir de ces tickets. L'ordonnancement des tâches par des tickets apporte dynamisme et flexibilité.
+Dans le contexte d'un projet client, l'itération des tâches est déduite du cahier des charges et se fait par l'élaboration de tickets, précisant la durée de la tâche, son importance et son statut. Un ticket est caractérisé par le nom de la personne qui traite le ticket, l'état du ticket, une description et des commentaires. Il peut avoir quatre états : \textit{en cours}, \textit{ouvert}, \textit{fait} ou \textit{en attente de retour}. La description du ticket reflète le besoin du client. Il est mis à jour si le besoin évolue ou s'il est précisé. Sur chaque ticket, un mécanisme de commentaires permet un dialogue entre Logilab et le client (demandes de précisions, alternatives techniques, compléments d’information, etc.) De plus, la charge de réalisation de chaque ticket (en jours.hommes) est évaluée par les personnes susceptibles de le réaliser afin d'être la plus réelle possible. Travaillant dans le cadre d'un projet interne, l'élaboration des tickets décrivant les travaux que je devais réaliser a été directement faite par mon tuteur. La version du projet est construite à partir de ces tickets. L'ordonnancement des tâches par des tickets apporte dynamisme et flexibilité.
 
-\begin{center}
-\includegraphics[scale=0.5]{ticket.png}
-\captionof{figure}{Exemple de ticket}
-\end{center}
+
 
 \paragraph{Version et livraison}
 Dans le cadre d'une méthode agile, chaque projet est découpé en versions, livrées régulièrement au cours du projet. Les versions du projet peuvent être \textit{"prévues"}, \textit{"en cours de réalisation"}, \textit{"livrées"}, ou \textit{"recettées"}. La procédure de développement d'une version est explicitée par des tickets qui indiquent les différentes tâches à effectuer. Avant chaque livraison, la version est testée de manière approfondie. La version qui est livrée est clairement identifiée comme telle dans le gestionnaire de version Mercurial, contenant le code source. Les caractéristiques de cet outil essentiel seront détaillées ultérieurement (Cf paragraphe 5.2.1). De plus, chaque livrable est accompagné de rapports qui identifient les tests unitaires qui échouent. Un test unitaire vérifie, sur un morceau de code précis, qu'un exemple particulier de la problématique, couvert par le test, a le comportement attendu. La validation d’une version d’un projet aboutit à sa publication. Il existe un entrepôt public pour les logiciels libres publiés par Logilab, un entrepôt sécurisé pour les logiciels développés en interne, et des entrepôts sécurisés pour chaque client. L'ensemble de mon code source a donc été déposé dans l'entrepôt sécurisé consacré aux projets internes.
@@ -533,13 +530,7 @@ Les \textit{hooks} sont des traitements à effectuer lorsque certains événemen
 \section{Autres outils techniques}
 \subsection{Mercurial : gestionnaire de version}
 \paragraph{}
-Mercurial est un logiciel de gestion de versions décentralisé qui administre les différentes versions d'un programme écrites par un ou plusieurs développeurs. Il conserve l’historique des modifications, permet de paralléliser des réalisations puis de les intègrer, et met en place des drapeaux marquant les versions publiées en fin d’itération. Dans un contexte de développement de logiciel en équipe et dynamique dans le temps, maintenir un ensemble de versions est indispensable pour l'aboutissement du projet. Mercurial permet la gestion avancée de l’historique des modifications dans un environnement distribué (plusieurs contributeurs). Il gère aussi bien le code source des éléments logiciels que la documentation du projet. La gestion de versions décentralisée consiste à voir l'outil de gestion de versions comme un outil permettant à chacun de travailler à son rythme, de façon désynchronisée des autres, puis d'offrir un moyen à ces développeurs de s'échanger leur travaux respectifs. De fait, il existe plusieurs dépôts pour un même logiciel. Ce système est très utilisé par les logiciels libres. Cet outil, utilisé quotidiennement tout au long de ces vingt-quatre semaines, est indispensable pour le plan qualité du code. Voici ci-dessous un aperçu de l'interface de ce gestionnaire.
-
-\begin{center}
-\includegraphics[scale=0.4]{mercurial.png}
-\captionof{figure}{Interface du gestionnaire de version Mercurial}
-\end{center}
-
+Mercurial est un logiciel de gestion de versions décentralisé qui administre les différentes versions d'un programme écrites par un ou plusieurs développeurs. Il conserve l’historique des modifications, permet de paralléliser des réalisations puis de les intègrer, et met en place des drapeaux marquant les versions publiées en fin d’itération. Dans un contexte de développement de logiciel en équipe et dynamique dans le temps, maintenir un ensemble de versions est indispensable pour l'aboutissement du projet. Mercurial permet la gestion avancée de l’historique des modifications dans un environnement distribué (plusieurs contributeurs). Il gère aussi bien le code source des éléments logiciels que la documentation du projet. La gestion de versions décentralisée consiste à voir l'outil de gestion de versions comme un outil permettant à chacun de travailler à son rythme, de façon désynchronisée des autres, puis d'offrir un moyen à ces développeurs de s'échanger leur travaux respectifs. De fait, il existe plusieurs dépôts pour un même logiciel. Ce système est très utilisé par les logiciels libres. Cet outil, utilisé quotidiennement tout au long de ces vingt-quatre semaines, est indispensable pour le plan qualité du code.
 
 
 \subsection{Python : langage de programmation}
@@ -703,7 +694,7 @@ Le cube \textit{Expert System} est un cube métier qui a pour rôle de fournir �
 Dans un forum, un commentaire peut commenter une discussion ou un autre commentaire. Or dans une chaîne de commentaire, le commentaire n'est pas rattaché au sujet de la discussion mais à un autre commentaire, lui même pouvant petre rattaché à un commentaire et ainsi de suite jusqu'au commentaire initial qui est rattaché au sujet de la discussion (Cf schema ci-après). Le système expert permet de déduire à quel sujet n'importe quel commentaire est rattaché.
 
 \begin{center}
-\includegraphics[scale=0.7]{comment_chain.png}
+\includegraphics[scale=0.1]{chain.png}
 \captionof{figure}{Chaîne de commentaires}
 \end{center}
 
@@ -1030,7 +1021,7 @@ L'implémentation d'un tel paramètre est née de discussions sur des projets cl
 Lors de ce stage, l'intérêt de la mise en place de tests automatiques m'a été fortement démontrée. En effet, cela permet de maintenir le code lors de son évolution. Lors d’un changement d’implémentation d’un module, si les tests unitaires passent, il y a de grandes chances pour que le reste de l’application continue à fonctionner. Pour la réécriture de requêtes RQL, mon développement a été piloté par les tests, suivant le principe du \textit{test driven development} (Cf figure XXX). Cette technique de développement consiste à prendre en compte un aspect particulier du problème, d'écrire un test couvrant cet aspect, d'écrire le code correspondant permettant de faire passer ce test, puis de faire passer le test et d'ajouter un nouveau test. Cette méthode offre un rythme soutenu au codage. Dans le cadre de la réécriture de requêtes RQL, plusieurs tests ont été implémentés en utilisant la bibliothèque de tests unitaires \verb+Unittest+. Cette bibliothèque fournit des fonctions qui testent le fonctionnement du code afin de vérifier si, par exemple, une fonction donnée lève une exception au moment voulu ou si deux objets sont égaux. 
 
 \begin{center}
-\includegraphics{tdd.png}
+\includegraphics[scale=0.3]{tdd.png}
 \captionof{figure}{Fonctionnement de la méthodologie\textit{Test driven development}}
 \end{center}
 
@@ -1187,7 +1178,7 @@ CSV est une repésentation des données tabulaires sous forme de valeurs sépar�
 \end{itemize}
 
 \begin{center}
-\includegraphics[scale=0.7]{slick.png}
+\includegraphics[scale=0.5]{slick.png}
 \captionof{figure}{Interface du cube \textit{importcsv}}
 \end{center}
 
