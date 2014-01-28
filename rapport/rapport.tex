@@ -1027,7 +1027,12 @@ L'implémentation d'un tel paramètre est née de discussions sur des projets cl
 
 \section{Écriture de tests}
 \paragraph{Test driven development}
-Lors de ce stage, l'intérêt de la mise en place de tests automatiques m'a été fortement démontrée. En effet, cela permet de maintenir le code lors de son évolution. Lors d’un changement d’implémentation d’un module, si les tests unitaires passent, il y a de grandes chances pour que le reste de l’application continue à fonctionner. Pour la réécriture de requêtes RQL, mon développement a été piloté par les tests, suivant le principe du \textit{test driven development}. Cette technique de développement consiste à prendre en compte un aspect particulier du problème, d'écrire un test couvrant cet aspect, d'écrire le code correspondant permettant de faire passer ce test, puis de faire passer le test et d'ajouter un nouveau test. Cette méthode offre un rythme soutenu au codage. Dans le cadre de la réécriture de requêtes RQL, plusieurs tests ont été implémentés en utilisant la bibliothèque de tests unitaires \verb+Unittest+. Cette bibliothèque fournit des fonctions qui testent le fonctionnement du code afin de vérifier si, par exemple, une fonction donnée lève une exception au moment voulu ou si deux objets sont égaux. 
+Lors de ce stage, l'intérêt de la mise en place de tests automatiques m'a été fortement démontrée. En effet, cela permet de maintenir le code lors de son évolution. Lors d’un changement d’implémentation d’un module, si les tests unitaires passent, il y a de grandes chances pour que le reste de l’application continue à fonctionner. Pour la réécriture de requêtes RQL, mon développement a été piloté par les tests, suivant le principe du \textit{test driven development} (Cf figure XXX). Cette technique de développement consiste à prendre en compte un aspect particulier du problème, d'écrire un test couvrant cet aspect, d'écrire le code correspondant permettant de faire passer ce test, puis de faire passer le test et d'ajouter un nouveau test. Cette méthode offre un rythme soutenu au codage. Dans le cadre de la réécriture de requêtes RQL, plusieurs tests ont été implémentés en utilisant la bibliothèque de tests unitaires \verb+Unittest+. Cette bibliothèque fournit des fonctions qui testent le fonctionnement du code afin de vérifier si, par exemple, une fonction donnée lève une exception au moment voulu ou si deux objets sont égaux. 
+
+\begin{center}
+\includegraphics{tdd.png}
+\captionof{figure}{Fonctionnement de la méthodologie\textit{Test driven development}}
+\end{center}
 
 
 \subsection{Réécriture de relation}
