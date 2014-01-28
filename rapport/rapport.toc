@@ -127,143 +127,149 @@
 \contentsline {section}{\numberline {7.2}Les options \IeC {\'e}valu\IeC {\'e}es}{30}
 \contentsline {paragraph}{}{30}
 \contentsline {subsection}{\numberline {7.2.1}Reasoners}{30}
-\contentsline {paragraph}{}{30}
-\contentsline {paragraph}{}{31}
-\contentsline {subsection}{\numberline {7.2.2}Les syst\IeC {\`e}mes experts}{31}
-\contentsline {paragraph}{}{31}
-\contentsline {paragraph}{La base de faits}{31}
-\contentsline {paragraph}{Les r\IeC {\`e}gles}{31}
-\contentsline {paragraph}{Le moteur d'inf\IeC {\'e}rence}{31}
-\contentsline {subsubsection}{Exemple d'un syst\IeC {\`e}me expert}{31}
-\contentsline {paragraph}{}{31}
-\contentsline {subsection}{\numberline {7.2.3}Les bases de donn\IeC {\'e}es d\IeC {\'e}ductives}{32}
+\contentsline {paragraph}{R\IeC {\^o}le d'un reasoner}{30}
+\contentsline {paragraph}{Fonctionnement d'un reasoner}{31}
+\contentsline {paragraph}{Normalisation}{31}
+\contentsline {paragraph}{Classification}{31}
+\contentsline {paragraph}{Satisfiabilit\IeC {\'e}}{31}
+\contentsline {paragraph}{Composants d'un reasoner}{31}
+\contentsline {paragraph}{Inf\IeC {\'e}rences produites}{32}
+\contentsline {paragraph}{\IeC {\'E}valuation de l'option}{32}
+\contentsline {subsection}{\numberline {7.2.2}Les syst\IeC {\`e}mes experts}{32}
 \contentsline {paragraph}{}{32}
-\contentsline {chapter}{\numberline {8}Cr\IeC {\'e}ation du cube syst\IeC {\`e}me expert}{33}
-\contentsline {section}{\numberline {8.1}Objectifs et cas d'utilisation}{33}
-\contentsline {subsection}{\numberline {8.1.1}Objectifs}{33}
+\contentsline {paragraph}{La base de faits}{32}
+\contentsline {paragraph}{Les r\IeC {\`e}gles}{32}
+\contentsline {paragraph}{Le moteur d'inf\IeC {\'e}rence}{32}
+\contentsline {subsubsection}{Exemple d'un syst\IeC {\`e}me expert}{32}
+\contentsline {paragraph}{}{32}
+\contentsline {subsection}{\numberline {7.2.3}Les bases de donn\IeC {\'e}es d\IeC {\'e}ductives}{33}
 \contentsline {paragraph}{}{33}
-\contentsline {subsection}{\numberline {8.1.2}Cas d'utilisation}{33}
-\contentsline {paragraph}{}{33}
-\contentsline {section}{\numberline {8.2}Base de faits}{34}
-\contentsline {subsection}{\numberline {8.2.1}Les faits issus du Cube Forum}{34}
+\contentsline {chapter}{\numberline {8}Cr\IeC {\'e}ation du cube syst\IeC {\`e}me expert}{34}
+\contentsline {section}{\numberline {8.1}Objectifs et cas d'utilisation}{34}
+\contentsline {subsection}{\numberline {8.1.1}Objectifs}{34}
 \contentsline {paragraph}{}{34}
-\contentsline {paragraph}{Fonctionnement de Pyke}{34}
-\contentsline {subsection}{\numberline {8.2.2}Constitution de la base de faits}{34}
+\contentsline {subsection}{\numberline {8.1.2}Cas d'utilisation}{34}
 \contentsline {paragraph}{}{34}
+\contentsline {section}{\numberline {8.2}Base de faits}{35}
+\contentsline {subsection}{\numberline {8.2.1}Les faits issus du Cube Forum}{35}
 \contentsline {paragraph}{}{35}
+\contentsline {paragraph}{Fonctionnement de Pyke}{35}
+\contentsline {subsection}{\numberline {8.2.2}Constitution de la base de faits}{35}
 \contentsline {paragraph}{}{35}
-\contentsline {subsection}{\numberline {8.2.3}Mise \IeC {\`a} jour des faits}{35}
-\contentsline {paragraph}{}{35}
-\contentsline {section}{\numberline {8.3}Base de r\IeC {\`e}gles}{35}
-\contentsline {subsection}{\numberline {8.3.1}Les r\IeC {\`e}gles}{35}
-\contentsline {paragraph}{}{35}
-\contentsline {subsection}{\numberline {8.3.2}Constitution de la base de r\IeC {\`e}gles}{36}
-\contentsline {paragraph}{}{36}
-\contentsline {section}{\numberline {8.4}Moteur d'inf\IeC {\'e}rences}{36}
 \contentsline {paragraph}{}{36}
 \contentsline {paragraph}{}{36}
-\contentsline {subsection}{\numberline {8.4.1}Activation des r\IeC {\`e}gles}{36}
+\contentsline {subsection}{\numberline {8.2.3}Mise \IeC {\`a} jour des faits}{36}
 \contentsline {paragraph}{}{36}
-\contentsline {subsection}{\numberline {8.4.2}Algorithme de cha\IeC {\^\i }nage-avant par saturation}{37}
+\contentsline {section}{\numberline {8.3}Base de r\IeC {\`e}gles}{36}
+\contentsline {subsection}{\numberline {8.3.1}Les r\IeC {\`e}gles}{36}
+\contentsline {paragraph}{}{36}
+\contentsline {subsection}{\numberline {8.3.2}Constitution de la base de r\IeC {\`e}gles}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {section}{\numberline {8.4}Moteur d'inf\IeC {\'e}rences}{37}
 \contentsline {paragraph}{}{37}
 \contentsline {paragraph}{}{37}
+\contentsline {subsection}{\numberline {8.4.1}Activation des r\IeC {\`e}gles}{37}
 \contentsline {paragraph}{}{37}
-\contentsline {subsection}{\numberline {8.4.3}Pattern Matching}{37}
-\contentsline {paragraph}{}{37}
-\contentsline {section}{\numberline {8.5}Sch\IeC {\'e}ma du cube \textit {Expert System}}{37}
-\contentsline {paragraph}{}{37}
+\contentsline {subsection}{\numberline {8.4.2}Algorithme de cha\IeC {\^\i }nage-avant par saturation}{38}
 \contentsline {paragraph}{}{38}
-\contentsline {section}{\numberline {8.6}R\IeC {\'e}sultats obtenus}{38}
 \contentsline {paragraph}{}{38}
-\contentsline {section}{\numberline {8.7}Apports personnels et pour Logilab}{39}
+\contentsline {paragraph}{}{38}
+\contentsline {subsection}{\numberline {8.4.3}Pattern Matching}{38}
+\contentsline {paragraph}{}{38}
+\contentsline {section}{\numberline {8.5}Sch\IeC {\'e}ma du cube \textit {Expert System}}{38}
+\contentsline {paragraph}{}{38}
 \contentsline {paragraph}{}{39}
-\contentsline {chapter}{\numberline {9}R\IeC {\'e}\IeC {\'e}criture de requ\IeC {\^e}tes RQL}{40}
-\contentsline {section}{\numberline {9.1}Les cas d'utilisations}{40}
+\contentsline {section}{\numberline {8.6}R\IeC {\'e}sultats obtenus}{39}
+\contentsline {paragraph}{}{39}
+\contentsline {section}{\numberline {8.7}Apports personnels et pour Logilab}{40}
 \contentsline {paragraph}{}{40}
-\contentsline {subsection}{\numberline {9.1.1}La r\IeC {\'e}\IeC {\'e}criture de relation}{40}
-\contentsline {paragraph}{}{40}
-\contentsline {subsection}{\numberline {9.1.2}Les attributs calcul\IeC {\'e}s}{41}
-\contentsline {subsection}{\numberline {9.1.3}Le param\IeC {\`e}tre g\IeC {\'e}n\IeC {\'e}rique}{41}
+\contentsline {chapter}{\numberline {9}R\IeC {\'e}\IeC {\'e}criture de requ\IeC {\^e}tes RQL}{41}
+\contentsline {section}{\numberline {9.1}Les cas d'utilisations}{41}
 \contentsline {paragraph}{}{41}
-\contentsline {paragraph}{Exemple}{42}
-\contentsline {paragraph}{Param\IeC {\`e}tre g\IeC {\'e}n\IeC {\'e}rique et r\IeC {\'e}\IeC {\'e}criture}{42}
+\contentsline {subsection}{\numberline {9.1.1}La r\IeC {\'e}\IeC {\'e}criture de relation}{41}
+\contentsline {paragraph}{}{41}
+\contentsline {subsection}{\numberline {9.1.2}Les attributs calcul\IeC {\'e}s}{42}
+\contentsline {subsection}{\numberline {9.1.3}Le param\IeC {\`e}tre g\IeC {\'e}n\IeC {\'e}rique}{42}
 \contentsline {paragraph}{}{42}
-\contentsline {section}{\numberline {9.2}\IeC {\'E}criture de tests}{42}
-\contentsline {paragraph}{Test driven development}{42}
-\contentsline {subsection}{\numberline {9.2.1}R\IeC {\'e}\IeC {\'e}criture de relation}{43}
-\contentsline {paragraph}{}{44}
-\contentsline {subsection}{\numberline {9.2.2}R\IeC {\'e}\IeC {\'e}criture d'attribut calcul\IeC {\'e}}{44}
-\contentsline {section}{\numberline {9.3}Int\IeC {\'e}gration \IeC {\`a} la structure en place}{44}
-\contentsline {subsection}{\numberline {9.3.1}Sch\IeC {\'e}ma Yams et CubicWeb}{44}
-\contentsline {paragraph}{Sch\IeC {\'e}ma Yams}{44}
-\contentsline {paragraph}{CubicWeb}{44}
-\contentsline {subsection}{\numberline {9.3.2}Mises \IeC {\`a} jour des donn\IeC {\'e}es}{44}
-\contentsline {paragraph}{Coh\IeC {\'e}rence des donn\IeC {\'e}es}{44}
-\contentsline {paragraph}{D\IeC {\'e}clenchement de la mise \IeC {\`a} jour}{45}
-\contentsline {paragraph}{Impl\IeC {\'e}mentation du hook}{45}
-\contentsline {paragraph}{Migration des applications}{45}
-\contentsline {subsection}{\numberline {9.3.3}G\IeC {\'e}n\IeC {\'e}ration de tables SQL}{45}
-\contentsline {section}{\numberline {9.4}Communication autour du projet}{45}
+\contentsline {paragraph}{Exemple}{43}
+\contentsline {paragraph}{Param\IeC {\`e}tre g\IeC {\'e}n\IeC {\'e}rique et r\IeC {\'e}\IeC {\'e}criture}{43}
+\contentsline {paragraph}{}{43}
+\contentsline {section}{\numberline {9.2}\IeC {\'E}criture de tests}{43}
+\contentsline {paragraph}{Test driven development}{43}
+\contentsline {subsection}{\numberline {9.2.1}R\IeC {\'e}\IeC {\'e}criture de relation}{44}
 \contentsline {paragraph}{}{45}
-\contentsline {section}{\numberline {9.5}Apports personnels et pour Logilab}{45}
-\contentsline {paragraph}{}{45}
-\contentsline {paragraph}{}{45}
-\contentsline {chapter}{\numberline {10}R\IeC {\'e}alisations secondaires}{46}
-\contentsline {section}{\numberline {10.1}Vsprint}{46}
-\contentsline {paragraph}{Liste des sujets affect\IeC {\'e}s}{46}
-\contentsline {paragraph}{Imagesearch}{46}
-\contentsline {paragraph}{Graphe des projets}{46}
-\contentsline {paragraph}{Bilan des Vsprint}{46}
-\contentsline {section}{\numberline {10.2}Cr\IeC {\'e}ation d'un cube d'import CSV}{46}
-\contentsline {subsection}{\numberline {10.2.1}Objectifs}{46}
-\contentsline {subsection}{\numberline {10.2.2}Impl\IeC {\'e}mentation}{46}
-\contentsline {paragraph}{Fonctionnalit\IeC {\'e}s impl\IeC {\'e}ment\IeC {\'e}es}{46}
-\contentsline {paragraph}{Fonctionnement}{47}
-\contentsline {paragraph}{Apports personnels et pour Logilab}{47}
-\contentsline {chapter}{\numberline {11}Conclusion}{48}
-\contentsline {paragraph}{}{48}
-\contentsline {paragraph}{}{48}
-\contentsline {paragraph}{}{48}
-\contentsline {paragraph}{}{48}
-\contentsline {paragraph}{}{48}
-\contentsline {chapter}{\numberline {A}Algorithmes}{49}
-\contentsline {section}{\numberline {A.1}Algorithme de cha\IeC {\^\i }nage-arri\IeC {\`e}re}{49}
-\contentsline {paragraph}{Struture et fonctionnement}{49}
-\contentsline {paragraph}{Algorithme de cha\IeC {\^\i }nage-arri\IeC {\`e}re}{49}
+\contentsline {subsection}{\numberline {9.2.2}R\IeC {\'e}\IeC {\'e}criture d'attribut calcul\IeC {\'e}}{45}
+\contentsline {section}{\numberline {9.3}Int\IeC {\'e}gration \IeC {\`a} la structure en place}{45}
+\contentsline {subsection}{\numberline {9.3.1}Sch\IeC {\'e}ma Yams et CubicWeb}{45}
+\contentsline {paragraph}{Sch\IeC {\'e}ma Yams}{45}
+\contentsline {paragraph}{CubicWeb}{45}
+\contentsline {subsection}{\numberline {9.3.2}Mises \IeC {\`a} jour des donn\IeC {\'e}es}{45}
+\contentsline {paragraph}{Coh\IeC {\'e}rence des donn\IeC {\'e}es}{45}
+\contentsline {paragraph}{D\IeC {\'e}clenchement de la mise \IeC {\`a} jour}{46}
+\contentsline {paragraph}{Impl\IeC {\'e}mentation du hook}{46}
+\contentsline {paragraph}{Migration des applications}{46}
+\contentsline {subsection}{\numberline {9.3.3}G\IeC {\'e}n\IeC {\'e}ration de tables SQL}{46}
+\contentsline {section}{\numberline {9.4}Communication autour du projet}{46}
+\contentsline {paragraph}{}{46}
+\contentsline {section}{\numberline {9.5}Apports personnels et pour Logilab}{46}
+\contentsline {paragraph}{}{46}
+\contentsline {paragraph}{}{46}
+\contentsline {chapter}{\numberline {10}R\IeC {\'e}alisations secondaires}{47}
+\contentsline {section}{\numberline {10.1}Vsprint}{47}
+\contentsline {paragraph}{Liste des sujets affect\IeC {\'e}s}{47}
+\contentsline {paragraph}{Imagesearch}{47}
+\contentsline {paragraph}{Graphe des projets}{47}
+\contentsline {paragraph}{Bilan des Vsprint}{47}
+\contentsline {section}{\numberline {10.2}Cr\IeC {\'e}ation d'un cube d'import CSV}{47}
+\contentsline {subsection}{\numberline {10.2.1}Objectifs}{47}
+\contentsline {subsection}{\numberline {10.2.2}Impl\IeC {\'e}mentation}{47}
+\contentsline {paragraph}{Fonctionnalit\IeC {\'e}s impl\IeC {\'e}ment\IeC {\'e}es}{47}
+\contentsline {paragraph}{Fonctionnement}{48}
+\contentsline {paragraph}{Apports personnels et pour Logilab}{48}
+\contentsline {chapter}{\numberline {11}Conclusion}{49}
 \contentsline {paragraph}{}{49}
 \contentsline {paragraph}{}{49}
+\contentsline {paragraph}{}{49}
+\contentsline {paragraph}{}{49}
+\contentsline {paragraph}{}{49}
+\contentsline {chapter}{\numberline {A}Algorithmes}{50}
+\contentsline {section}{\numberline {A.1}Algorithme de cha\IeC {\^\i }nage-arri\IeC {\`e}re}{50}
+\contentsline {paragraph}{Struture et fonctionnement}{50}
+\contentsline {paragraph}{Algorithme de cha\IeC {\^\i }nage-arri\IeC {\`e}re}{50}
 \contentsline {paragraph}{}{50}
-\contentsline {chapter}{\numberline {B}Code}{51}
-\contentsline {section}{\numberline {B.1}Hook de mise \IeC {\`a} jour des donn\IeC {\'e}es d'un attribut calcul\IeC {\'e}}{51}
-\contentsline {chapter}{\numberline {C}Glossaire}{53}
-\contentsline {paragraph}{Cloud computing}{53}
-\contentsline {paragraph}{CSS3}{53}
-\contentsline {paragraph}{CSV}{53}
-\contentsline {paragraph}{Cube}{53}
-\contentsline {paragraph}{CubicWeb}{53}
-\contentsline {paragraph}{Debian}{53}
-\contentsline {paragraph}{DOAP}{53}
-\contentsline {paragraph}{FOAF}{53}
-\contentsline {paragraph}{Framework}{53}
-\contentsline {paragraph}{Hadoop}{53}
-\contentsline {paragraph}{HTML5}{53}
-\contentsline {paragraph}{Javascript}{53}
-\contentsline {paragraph}{Mercurial}{53}
-\contentsline {paragraph}{Moteur d'inf\IeC {\'e}rences}{53}
-\contentsline {paragraph}{Ontologie}{53}
-\contentsline {paragraph}{Open data}{54}
-\contentsline {paragraph}{Open source}{54}
-\contentsline {paragraph}{Pattern variable}{54}
-\contentsline {paragraph}{Pyke}{54}
-\contentsline {paragraph}{Python}{54}
-\contentsline {paragraph}{RDF}{54}
-\contentsline {paragraph}{Reasoner}{54}
-\contentsline {paragraph}{Responsive Design}{54}
-\contentsline {paragraph}{RQL}{54}
-\contentsline {paragraph}{SIOC}{54}
-\contentsline {paragraph}{Sparql}{54}
-\contentsline {paragraph}{Syst\IeC {\`e}me experts}{54}
-\contentsline {paragraph}{W3C}{54}
-\contentsline {paragraph}{Web s\IeC {\'e}mantique}{54}
-\contentsline {paragraph}{Yams}{54}
-\contentsline {paragraph}{Vsprint}{54}
+\contentsline {paragraph}{}{50}
+\contentsline {paragraph}{}{51}
+\contentsline {chapter}{\numberline {B}Code}{52}
+\contentsline {section}{\numberline {B.1}Hook de mise \IeC {\`a} jour des donn\IeC {\'e}es d'un attribut calcul\IeC {\'e}}{52}
+\contentsline {chapter}{\numberline {C}Glossaire}{54}
+\contentsline {paragraph}{Cloud computing}{54}
+\contentsline {paragraph}{CSS3}{54}
+\contentsline {paragraph}{CSV}{54}
+\contentsline {paragraph}{Cube}{54}
+\contentsline {paragraph}{CubicWeb}{54}
+\contentsline {paragraph}{Debian}{54}
+\contentsline {paragraph}{DOAP}{54}
+\contentsline {paragraph}{FOAF}{54}
+\contentsline {paragraph}{Framework}{54}
+\contentsline {paragraph}{Hadoop}{54}
+\contentsline {paragraph}{HTML5}{54}
+\contentsline {paragraph}{Javascript}{54}
+\contentsline {paragraph}{Mercurial}{54}
+\contentsline {paragraph}{Moteur d'inf\IeC {\'e}rences}{54}
+\contentsline {paragraph}{Ontologie}{54}
+\contentsline {paragraph}{Open data}{55}
+\contentsline {paragraph}{Open source}{55}
+\contentsline {paragraph}{Pattern variable}{55}
+\contentsline {paragraph}{Pyke}{55}
+\contentsline {paragraph}{Python}{55}
+\contentsline {paragraph}{RDF}{55}
+\contentsline {paragraph}{Reasoner}{55}
+\contentsline {paragraph}{Responsive Design}{55}
+\contentsline {paragraph}{RQL}{55}
+\contentsline {paragraph}{SIOC}{55}
+\contentsline {paragraph}{Sparql}{55}
+\contentsline {paragraph}{Syst\IeC {\`e}me experts}{55}
+\contentsline {paragraph}{W3C}{55}
+\contentsline {paragraph}{Web s\IeC {\'e}mantique}{55}
+\contentsline {paragraph}{Yams}{55}
+\contentsline {paragraph}{Vsprint}{55}

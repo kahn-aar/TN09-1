@@ -147,12 +147,12 @@ Les méthodologies et outils, utilisés tout au long de ses vingt-quatre semaine
 \chapter{Logilab : une entreprise acteur du logiciel libre}
 \section{Activité et domaines de compétences}
 \paragraph{}
-Logilab est une société anonyme (S.A) d'une vingtaine de personnes créée en septembre 2000 dont l'activité consiste à développer des logiciels, les intégrer dans les systèmes d'information clients et à proposer du conseil et des formations de haut niveau dans les domaines de l'informatique scientifique et du Web sémantique\footnotemark[1]. Les principales formations proposées par Logilab concernent la programmation Python, la programmation scientifique en Python (e.g analyse de données, statistiques, fouilles de données, calcul numérique), programmation d'interfaces graphiques, programmation Web, le développement logiciel (e.g gestion des sources, gestion d'infrastructure) et le système d'exploitation Debian GNU / Linux.
+Logilab est une société anonyme d'une vingtaine de personnes créée en septembre 2000 dont l'activité consiste à développer des logiciels, les intégrer dans les systèmes d'information clients et à proposer du conseil et des formations de haut niveau dans les domaines de l'informatique scientifique et du Web sémantique\footnotemark[1]. Les principales formations proposées par Logilab concernent la programmation Python, la programmation scientifique en Python (e.g analyse de données, statistiques, fouilles de données, calcul numérique), programmation d'interfaces graphiques, programmation Web, le développement logiciel (e.g gestion des sources, gestion d'infrastructure) et le système d'exploitation Debian GNU / Linux.
 
 \paragraph{}
 Dans le domaine de l'informatique scientifique, elle propose à ses clients diverses prestations comme la simulation numérique, le calcul hautes performances ou l'analyse de données. Dans le domaine du Web sémantique, elle offre des services comme la gestion de connaissances, l'agrégation de bases de données et des outils de recherche et de veille. Les experts de Logilab ont tous une formation d'ingénieur ce qui leur permet de maîtriser les domaines de l'informatique scientifique afin d'établir des solutions adaptées aux problématiques de chacun de ses clients.
 
-\footnotetext[1]{Le Web sémantique est un mouvement Mouvement qui vise à permettre aux machines de comprendre la sémantique, c'est-à-dire la signification, de l'information sur le Web.}
+\footnotetext[1]{Le Web sémantique est un mouvement qui vise à permettre aux machines de comprendre la sémantique, c'est-à-dire la signification de l'information sur le Web.}
 
 
 
@@ -609,16 +609,40 @@ Concernant la simplification de l'écriture des requêtes, l'option envisagée e
 \footnotetext[1]{Une ontologie est l'ensemble structuré des termes et concepts représentant le sens d'un champ d'informations. L'ontologie constitue en soi un modèle de données représentatif d'un ensemble de concepts dans un domaine, ainsi que des relations entre ces concepts.}
 
 \subsection{Reasoners}
-\paragraph{}
+\paragraph{Rôle d'un reasoner}
 Un \textit{reasoner} est un programme capable d'inférer des conséquences logiques à partir de faits et d'axiomes et de vérifier qu'une ontologie\footnotemark[1] est cohérente. Pour vérifier la cohérence d'une ontologie, un \textit{reasoner} vérifie : 
 \begin{itemize}
 \item la généralité d'un concept : un concept ne doit pas englober un autre concept
 \item si la définition d'un concept est instanciable
 \item s'il n'y a pas de contradiction entre les axiomes et les relations
 \item la cohérence du vocabulaire de l'ontologie.
+\item déduire des relations
 \end{itemize}
-\paragraph{}
-Après avoir étudié différents \textit{reasoner open source} comme FaCT++, Pellet, Jena, cette solution a été écartée car, de mon point de vue, elle ne correspondait pas à l'exigence des demandes. En effet, les \textit{reasoners} actuels agissent comme des boites noires et le contrôle des inférences est limité. Par ailleurs, une autre demande du cahier des charges que l'on m'a confié, était la préférence de Logilab pour le langage Python. Or, pour le moment, aucun \textit{reasoner} n'est codé en Python.
+\paragraph{Fonctionnement d'un reasoner}
+Pour parvenir à établir la cohérence d'une ontologie, les \textit{Reasoner} suivent le processus décrit dans la figure ci-dessous (Cf figure XXX).
+\begin{multicols}{2}
+\begin{center}
+\includegraphics[scale=0.5]{process_reasoner.png}
+\captionof{figure}{Processus de fonctionnement d'un reasoner}
+\end{center}
+
+\paragraph{Normalisation} Tous les concepts sont transformés sous une forme normalisée où seulement les opérateurs de négations, conjonction, restriction universelle XXX et le symbole XXX sont autorisés. De plus, les constantes sont éliminées ainsi que les doubles négations. Cette optimisation standard est conçue pour détecter le plus tôt possible les incohérences.
+\paragraph{Classification} Le \textit{Reasoner} choisit l'ordre dans equel les concepts seront traités afin de réduire le nombre de relations hiérarchiques entre les concepts.
+\paragraph{Satisfiabilité} Le \textit{Reasoner} résous enfin les problèmes hiérarchiques pour une paire de concept donnée.
+\end{multicols}
+\paragraph{Composants d'un reasoner} Le processus est équivalent suivant les \textit{reasoner}, ainsi les composants de l'architecture d'un reasoner sont similaires. Le schéma ci-dessous modélise les principaux composants du \textit{reasoner} pellet.
+
+
+\begin{center}
+\includegraphics[scale=0.7]{reasoner.png}
+\captionof{figure}{Principaux composants du \textit{reasoner} Pellet}
+\end{center}
+
+\paragraph{Inférences produites}
+En vérifiant la cohérence d'une ontologie, les \textit{reasoner} peuvent déduire de nouvelles relations entre les concepts. Ces déductions ont correspondent à l'application de la logique qui vérifie la cohérence.
+
+\paragraph{Évaluation de l'option}
+Après avoir étudié différents \textit{reasoner open source} comme FaCT++, Pellet, Jena, cette solution a été écartée car, de mon point de vue, elle ne correspondait pas à l'exigence des demandes. En effet, avec les \textit{reasoners} actuels qui agissent comme des boites noires, l'utilisateur n'a pas le contrôle sur les inférences produites. Les \textit{reasoner} ont pour but premier de vérifier la cohérence et non d'inférer sur données. Par ailleurs, une autre demande du cahier des charges que l'on m'a confié, était la préférence de Logilab pour le langage Python. Or, pour le moment, aucun \textit{reasoner} n'est codé en Python.
 
 
     
@@ -1293,14 +1317,15 @@ class SyncSchemaComputedAttributeOperation(hook.DataOperationMixIn, hook.Operati
 				for attr in entity.attribute_definitions():
 					formula = attr[0].formula
 					if formula and self.rtype in formula:
-						rql = hook_rewrite_computed(formula, self.eidfrom, self.rtype, self.eidto, 
-																				schema.get_rules())
+						rql = hook_rewrite_computed(formula, self.eidfrom, 
+									self.rtype, self.eidto, schema.get_rules())
 						rset = session.execute(rql)
 						if rset:
 							for r, eclass in rset.rows:
 								if r:
-									session.execute('SET X %(attr)s "%(r)s" WHERE X eid %(eclass)s'
-																	% {'attr': attr[0], 'r': r, 'eclass': eclass})
+									session.execute('SET X %(attr)s "%(r)s" 
+									WHERE X eid %(eclass)s'
+									% {'attr': attr[0], 'r': r, 'eclass': eclass})
 																	
 		
 \end{lstlisting}
