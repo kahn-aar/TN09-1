@@ -113,7 +113,7 @@ stringstyle=\color{mymauve}
 \chapter*{Remerciements}
 
 \paragraph{}
-Je tiens à remercier Monsieur Vincent Michel, chef de projet au sein du département Web sémantique et tuteur de ce stage, pour la confiance et l'autonomie qu’il m’a accordées dès mon arrivée dans l’entreprise, pour les conseils qu'il m'a apportés lors des différents suivis, et pour le temps qu'il m'a consacré. Je remercie également Monsieur Gérard Govaert, enseignant suiveur de l'UTC, pour sa visite sur le lieu du stage. 
+Je tiens à remercier Monsieur Vincent Michel, chef de projet au sein du département Web sémantique et tuteur de ce stage, pour la confiance et l'autonomie qu’il m’a accordées dès mon arrivée dans l’entreprise, pour les conseils qu'il m'a apportés lors des différents suivis, et pour le temps qu'il m'a consacré. Je remercie également Monsieur Gérard Govaert, enseignant suiveur de l'UTC, pour sa visite sur le lieu du stage et son intérêt pour le projet.
 \paragraph{}
 Je tiens à témoigner ma reconnaissance aux personnes suivantes: Monsieur Olivier Cayrol, directeur adjoint de Logilab, pour son intégration au sein de l'entreprise et ses conseils sur la communication du projet au sein de la communauté CubicWeb; Messieurs Nicolas Chauvat, PDG de l'entreprise Logilab, Adrien Di Mascio, directeur du Département Web sémantique, Sylvain Thénault, Directeur de l'Agence de Toulouse et Anthony Truchet, chef de projet au sein du département Informatique Scientifique,  pour l'intérêt qu'ils ont porté au sujet de mon stage ; Madame Katia Saurfelt, chef de projet au sein du Département Web Sémantique, pour sa gentillesse, l'accueil au sein de son bureau et son aide tout long de ce stage; Monsieur Alain Leufroy, chef de projet au sein du Département Informatique scientifique, pour sa formation sur le Python scientifique et sa bonne humeur quotidienne; ainsi que l'ensemble du personnel de Logilab pour sa sympathie et son accueil.
 
@@ -121,7 +121,7 @@ Je tiens à témoigner ma reconnaissance aux personnes suivantes: Monsieur Olivi
 
 \chapter*{Résumé technique}
 \paragraph{}
-Le stage que j'ai effectué s'est déroulé au sein du département “Web Sémantique” de Logilab, entreprise spécialisée dans l’informatique numérique et la gestion des connaissances. Logilab propose des outils de gestion de connaissances basés sur le logiciel libre CubicWeb. Le sujet de ce stage porte sur la mise en place d'inférences sur la plateforme CubicWeb, à la base de la création des applications produites par Logilab. Il s'agit d'offrir la possibilité de traiter l'ensemble des données d'une application avec des règles, en vue d'en extraire des nouvelles informations pertinentes. Afin de mettre en place un mécanisme de règles, mon stage s'est principalement articulé autour de deux actions : la mise en place d'un système expert et la mise en place de règles pour permettre une réécriture de requêtes RQL, langage d'interrogation et de modification de données.
+Le stage que j'ai effectué s'est déroulé au sein du département Web Sémantique de Logilab, entreprise spécialisée dans l’informatique numérique et la gestion des connaissances. Logilab propose des outils de gestion de connaissances basés sur le logiciel libre CubicWeb. Le sujet de ce stage porte sur la mise en place d'inférences sur la plateforme CubicWeb, à la base de la création des applications produites par Logilab. Il s'agit d'offrir la possibilité de traiter l'ensemble des données d'une application avec des règles, en vue d'en extraire des nouvelles informations pertinentes. Afin de mettre en place un mécanisme de règles, mon stage s'est principalement articulé autour de deux actions : la mise en place d'un système expert et la mise en place de règles pour permettre une réécriture de requêtes RQL, langage d'interrogation et de modification de données.
 \paragraph{}
 Dans un premier temps, la réalisation d'un système expert avec Pyke a permis d'inférer sur les données de l'application. Pyke est un moteur d'inférences écrit en Python qui introduit de la programmation logique inspirée de Prolog. La base de faits est composée des données de la base de données de l'application. Les données inférées selon les règles mises en place peuvent alors être intégrées à la base de données ou stockées séparément. Dans le cadre de la plateforme CubicWeb, les règles suivent un algorithme de chaînage-avant par saturation. Afin de réaliser ce système expert, mes compétences en matière d'algorithmique et de programmation logique ont été sollicitées.
 \paragraph{}
@@ -179,7 +179,7 @@ Ce choix de l'\textit{open source} est un engagement, une conviction car l'entre
 \section{Contexte économique et situation sur le marché}
 \subsection{Bilan économique de l'entreprise}
 
-\paragraph{}Le bilan économique de l'entreprise est résumé par le graphique ci-dessous représentant les bénéfices\footnotemark[1] et le chiffre d'affaires\footnotemark[2] de Logilab sur les trois dernières années. On constate que le chiffre d'affaire est globalement stable et que les bénéfices diminuent. Plusieurs raisons expliquent cette baisse: augmentation du nombre de salariés, augmentation des charges de l'exploitation etc.
+\paragraph{}Le bilan économique de l'entreprise est résumé par le graphique ci-dessous représentant les bénéfices\footnotemark[1] et le chiffre d'affaires\footnotemark[2] de Logilab sur les trois dernières années. On constate que le chiffre d'affaire est globalement stable et que les bénéfices diminuent. Plusieurs raisons expliquent cette baisse: l'augmentation des charges de l'exploitation mais surtout l'investissement de Logilab dans des produits et projets internes.
 
 \begin{center}
 \includegraphics{compta.png}
@@ -192,13 +192,16 @@ De nos jours, l'informatique est au cœur de toutes les entreprises. De nombreus
 
 \footnotetext[1]{Le bénéfice d'une entreprise est la différence positive entre : d'une part la somme des recettes réelles (produits comptabilisés) et produits calculés (factures à émettre, charges comptabilisées d'avance) et d'autre part la somme des dépenses réelles (charges comptabilisées) et des coûts calculés (amortissements, provisions, factures à recevoir...)}
 \footnotetext[2]{Le chiffre d'affaires d'une entreprise est le total des ventes d'une entreprise sur un exercice comptable}  
-\footnotetext[3]{SSII : Société de service en ingénieurie informatique}
+\footnotetext[3]{SSII : Société de service en ingénierie informatique}
 
+
+\subsection{Les principaux clients}
 \paragraph{}
-Logilab étant spécialisée dans le domaine scientifique et la gestion de données, l'entreprise possède de nombreux clients dans des domaines très divers comme : l'énergie, la télécommunication, les établissements publics, l'enseignement, l'aéronautique et l'espace. Ces principaux clients sont EDF, la BnF\footnotemark[1], l'IRSN\footnotemark[2], la SNCF, la  RATP, France Télécom R\&D, Bouygues Telecom, mais aussi des établissement publics comme le Ministère de l'Intérieur.
+Logilab étant spécialisée dans le domaine scientifique et la gestion de données, l'entreprise possède de nombreux clients dans des domaines très divers comme : l'énergie, la télécommunication, les établissements publics, l'enseignement, l'aéronautique et l'espace. Ces principaux clients sont EDF, la BnF\footnotemark[1], l'IRSN\footnotemark[2], la SNCF, la  RATP, France Télécom R\&D, Bouygues Telecom, mais aussi des établissements publics comme le Ministère de l'Intérieur.
 
 \footnotetext[1]{Bibliothèque nationale de France}
 \footnotetext[2]{Institut de Radioprotection et de Sûreté Nucléaire}
+
 
     Logilab participe ainsi à des projets d'envergure comme par exemple :
 \begin{itemize}
@@ -209,7 +212,7 @@ Logilab étant spécialisée dans le domaine scientifique et la gestion de donn�
 
 \subsection{Analyse des risques encourus par l'entreprise}
 \paragraph{}
-Comme la majorité des petites entreprises, il existe des risques inhérents à l'activité de Logilab, détaillés ci-après, liés aux produits, aux équipes et aux clients. La connaissance et la compréhension de ces risques sont essentielles afin de les maîtriser impérativement. Le risque majeur, concernant les produits de Logilab, serait l'incapacité à financer leur développement. Par ailleurs, le produit phare de Logilab CubicWeb ne possède pas une communauté propre importante. Or dans le monde des logiciels \textit{open source}, une forte communauté est un atout important. Logilab est composée d'une vingtaine de personnes, le départ d'une personne clé est donc un risque important pour le fonctionnement de l'entreprise. De plus, l'évolution de carrière étant limitée dans une entreprise de cette taille, les départs se renouvellent fréquemment. Il existe également un autre risque lié au pilotage des développeurs : les entreprises de logiciels \textit{open source} attirent des personnes qui adhèrent à une vision libertaire et peuvent avoir des difficultés à accepter le principe hiérarchique d'une entreprise, même si dans le contexte de Logilab la pression hiérarchique est faible. De part sa petite taille, l'existence de Logilab repose sur le financement de ses clients ; la perte de plusieurs clients ou encore une baisse de réputation qualité serait un risque majeur pour l'entreprise.
+Comme la majorité des petites entreprises, il existe des risques inhérents à l'activité de Logilab, détaillés ci-après, liés aux produits, aux équipes et aux clients. La connaissance et la compréhension de ces risques sont essentielles afin de les maîtriser impérativement. Le risque majeur, concernant les produits de Logilab, serait l'incapacité à financer leur développement. Par ailleurs, le produit phare de Logilab CubicWeb ne possède pas une communauté propre importante. Or dans le monde des logiciels \textit{open source}, une forte communauté est un atout important. Logilab est composée d'une vingtaine de personnes, le départ d'une personne clé est donc un risque important pour le fonctionnement de l'entreprise. De plus, l'évolution de carrière étant limitée dans une entreprise de cette taille, les départs se renouvellent fréquemment. Il existe également un autre risque lié au pilotage des développeurs : les entreprises de logiciels \textit{open source} attirent des personnes qui adhèrent à une vision libertaire et peuvent avoir des difficultés à accepter le principe hiérarchique d'une entreprise, même si dans le contexte de Logilab la pression hiérarchique est faible. De part sa petite taille, l'existence de Logilab repose intégralement sur le financement de ses clients ; la perte de plusieurs clients ou encore une baisse de réputation qualité serait un risque majeur pour l'entreprise.
 
 
 \chapter{Organisation générale}
@@ -370,6 +373,11 @@ L'avènement du Web sémantique et de l'Open Data\footnotemark[2] nécessite de 
 
 \footnotetext[1]{framework : ensemble de composants logiciels permettant de créer l'architecture d'un logiciel}
 \footnotetext[2]{Open data : données diffusées de manière structurée selon une méthodologie et une licence ouverte garantissant son libre accès et sa réutilisation par tous, sans restriction technique, juridique ou financière.}
+\footnotetext[3]{W3C (World Wide Web Consortium) est un organisme de normalisation à but non lucratif chargé de promouvoir la compatibilité des technologies}
+
+
+
+
 
 \paragraph{Une liberté pour le client}
 CubicWeb s'appuie sur le modèle métier des informations gérées qui laisse à l'utilisateur la possibilité de naviguer dans le graphe des informations, de sélectionner des données et de choisir la vue qui lui permettra de les visualiser.
@@ -379,25 +387,21 @@ CubicWeb s'appuie sur le modèle métier des informations gérées qui laisse à
 
 
 \paragraph{Respect des standards ouverts d'Internet}
-CubicWeb respecte les standards ouverts d'Internet afin de simplifier les communications et les échanges. Elle suit les standards du W3C\footnotemark[1] (RDF\footnotemark[2], SPARQL\footnotemark[3], HTML5\footnotemark[4], CSS3\footnotemark[5], Responsive Design\footnotemark[6]) et peut gérer nativement plusieurs modèles de données faisant office de standards de faits (FOAF\footnotemark[7], SIOC\footnotemark[8], DOAP\footnotemark[9]).
+CubicWeb respecte les standards ouverts d'Internet afin de simplifier les communications et les échanges. Elle suit les standards du World Wide Web Consortium\footnotemark[3] (RDF\footnotemark[1], SPARQL\footnotemark[2], HTML5\footnotemark[3], CSS3\footnotemark[4], Responsive Design\footnotemark[5]) et peut gérer nativement plusieurs modèles de données faisant office de standards de faits (FOAF\footnotemark[6], SIOC\footnotemark[7], DOAP\footnotemark[8]).
 
-\footnotetext[1]{W3C (World Wide Web Consortium) est un organisme de normalisation à but non lucratif chargé de promouvoir la compatibilité des technologies}
+\footnotetext[1]{RDF (Resource Description Framework) est un modèle de graphe destiné à décrire de façon formelle les ressources Web et leurs métadonnées, de façon à permettre le traitement automatique de ces descriptions.}
+\footnotetext[2]{SPARQL est un langage de requêtes et un protocole qui permet de rechercher, d'ajouter, de modifier ou de supprimer des données RDF disponibles à travers Internet.}
 
-\footnotetext[2]{RDF (Resource Description Framework) est un modèle de graphe destiné à décrire de façon formelle les ressources Web et leurs métadonnées, de façon à permettre le traitement automatique de ces descriptions. }
+\footnotetext[3]{HTML5 est la cinquième version du format de données HTML conçu pour représenter les pages Web}
+\footnotetext[4]{CSS3 est un langage servant à décrire la présentation des documents HTML et XML.}
 
-\footnotetext[3]{SPARQL est un langage de requêtes et un protocole qui permet de rechercher, d'ajouter, de modifier ou de supprimer des données RDF disponibles à travers Internet.}
+\footnotetext[5]{Responsive Design est une notion de conception de sites Web qui permet à l'utilisateur de consulter le même site Web à travers une large gamme d'appareils (moniteurs d'ordinateur, smartphones, tablettes, TV, etc.) avec le même confort visuel.}
 
-\footnotetext[4]{HTML5 est la cinquième version du format de données HTML conçu pour représenter les pages Web}
+\footnotetext[6]{FOAF est un vocabulaire RDF permettant de décrire des personnes et les relations qu’elles entretiennent entre elles. C'est une application du Web sémantique.}
 
-\footnotetext[5]{CSS3 est un langage servant à décrire la présentation des documents HTML et XML.}
+\footnotetext[7]{SIOC est un vocabulaire utilisant RDF permettant de décrire des objets couramment utilisés sur les sites communautaires et leurs relations. SIOC est une application du Web sémantique pour décrire des blogs, des forums, des wikis... }
 
-\footnotetext[6]{Responsive Design est une notion de conception de sites Web qui permet à l'utilisateur de consulter le même site Web à travers une large gamme d'appareils (moniteurs d'ordinateur, smartphones, tablettes, TV, etc.) avec le même confort visuel.}
-
-\footnotetext[7]{FOAF est un vocabulaire RDF permettant de décrire des personnes et les relations qu’elles entretiennent entre elles. C'est une application du Web sémantique.}
-
-\footnotetext[8]{SIOC est un vocabulaire utilisant RDF permettant de décrire des objets couramment utilisés sur les sites communautaires et leurs relations. SIOC est une application du Web sémantique pour décrire des blogs, des forums, des wikis... }
-
-\footnotetext[9]{DOAP est un vocabulaire RDF décrivant les projets logiciels}
+\footnotetext[8]{DOAP est un vocabulaire RDF décrivant les projets logiciels}
 
 
 \subsection{Architecture générale de CubicWeb}
@@ -619,14 +623,14 @@ Un \textit{reasoner} est un programme capable d'inférer des conséquences logiq
 \item déduire des relations
 \end{itemize}
 \paragraph{Fonctionnement d'un reasoner}
-Pour parvenir à établir la cohérence d'une ontologie, les \textit{Reasoner} suivent le processus décrit dans la figure ci-dessous (Cf figure XXX).
+Pour parvenir à établir la cohérence d'une ontologie, les \textit{Reasoner} suivent le processus décrit dans la figure ci-dessous.
 \begin{multicols}{2}
 \begin{center}
 \includegraphics[scale=0.5]{process_reasoner.png}
 \captionof{figure}{Processus de fonctionnement d'un reasoner}
 \end{center}
 
-\paragraph{Normalisation} Tous les concepts sont transformés sous une forme normalisée où seulement les opérateurs de négations, conjonction, restriction universelle XXX et le symbole XXX sont autorisés. De plus, les constantes sont éliminées ainsi que les doubles négations. Cette optimisation standard est conçue pour détecter le plus tôt possible les incohérences.
+\paragraph{Normalisation} Tous les concepts sont transformés sous une forme normalisée où seulement les opérateurs de négations, conjonction, restriction universelle $\forall$ et le symbole $\leq$ sont autorisés. De plus, les constantes sont éliminées ainsi que les doubles négations. Cette optimisation standard est conçue pour détecter le plus tôt possible les incohérences.
 \paragraph{Classification} Le \textit{Reasoner} choisit l'ordre dans equel les concepts seront traités afin de réduire le nombre de relations hiérarchiques entre les concepts.
 \paragraph{Satisfiabilité} Le \textit{Reasoner} résous enfin les problèmes hiérarchiques pour une paire de concept donnée.
 \end{multicols}
@@ -696,7 +700,7 @@ Cette proposition a été étudiée par le département pour sa capacité à êt
 
 \subsection{Les bases de données déductives}
 \paragraph{}
-Une base données déductive est une base de données capable d'effectuer des déductions à la manière d'un système expert, c'est-à-dire en utilisant des faits et des règles stockés dans la base de données déductive. Elle combine le paradigme de la programmation logique et les bases de données relationnelles. Aujourd'hui, les nouvelles applications des bases de données déductives sont l'intégration de données, l'extraction d'information, les réseaux sociaux, l'analyse de programmes, la sécurité et le \textit{cloud computing}\footnotemark[1]. Dans le cas du développement des applications \textit{CubicWeb}, cette solution est extrêmement pertinente car elle offre les mêmes avantages que les systèmes experts, avec une possibilité d'ajout de fonctions logiques. Deplus, les bases de données déductives ont été pensées pour travailler avec des bases de données. Dans l'optique de la spécialisation en Python de Logilab, l'étude du module Python PyDatalog a été engagée.
+Une base données déductive est une base de données capable d'effectuer des déductions à la manière d'un système expert, c'est-à-dire en utilisant des faits et des règles stockés dans la base de données déductive. Elle combine le paradigme de la programmation logique et les bases de données relationnelles. Aujourd'hui, les nouvelles applications des bases de données déductives sont l'intégration de données, l'extraction d'information, les réseaux sociaux, l'analyse de programmes, la sécurité et le \textit{cloud computing}\footnotemark[1]. Dans le cas du développement des applications \textit{CubicWeb}, cette solution est extrêmement pertinente car elle offre les mêmes avantages que les systèmes experts, avec une possibilité d'ajout de fonctions logiques. De plus, les bases de données déductives ont été pensées pour travailler avec des bases de données. Dans l'optique de la spécialisation en Python de Logilab, l'étude du module Python PyDatalog a été engagée. Ce module a été installé et testé pour sur de petites fonctionnalités.
 
 \footnotetext[1]{\textit{Cloud computing} : technologie qui permet de mettre sur des serveurs localisés à distance des données de stockage ou des logiciels.}
 
@@ -1042,7 +1046,7 @@ L'implémentation d'un tel paramètre est née de discussions sur des projets cl
 
 \section{Écriture de tests}
 \paragraph{Test driven development}
-Lors de ce stage, l'intérêt de la mise en place de tests automatiques m'a été fortement démontrée. En effet, cela permet de maintenir le code lors de son évolution. Lors d’un changement d’implémentation d’un module, si les tests unitaires passent, il y a de grandes chances pour que le reste de l’application continue à fonctionner. Pour la réécriture de requêtes RQL, mon développement a été piloté par les tests, suivant le principe du \textit{test driven development} (Cf figure XXX). Cette technique de développement consiste à prendre en compte un aspect particulier du problème, d'écrire un test couvrant cet aspect, d'écrire le code correspondant permettant de faire passer ce test, puis de faire passer le test et d'ajouter un nouveau test. Cette méthode offre un rythme soutenu au codage. Dans le cadre de la réécriture de requêtes RQL, plusieurs tests ont été implémentés en utilisant la bibliothèque de tests unitaires \verb+Unittest+. Cette bibliothèque fournit des fonctions qui testent le fonctionnement du code afin de vérifier si, par exemple, une fonction donnée lève une exception au moment voulu ou si deux objets sont égaux. 
+Lors de ce stage, l'intérêt de la mise en place de tests automatiques m'a été fortement démontrée. En effet, cela permet de maintenir le code lors de son évolution. Lors d’un changement d’implémentation d’un module, si les tests unitaires passent, il y a de grandes chances pour que le reste de l’application continue à fonctionner. Pour la réécriture de requêtes RQL, mon développement a été piloté par les tests, suivant le principe du \textit{test driven development} (Cf figure 9.1). Cette technique de développement consiste à prendre en compte un aspect particulier du problème, d'écrire un test couvrant cet aspect, d'écrire le code correspondant permettant de faire passer ce test, puis de faire passer le test et d'ajouter un nouveau test. Cette méthode offre un rythme soutenu au codage. Dans le cadre de la réécriture de requêtes RQL, plusieurs tests ont été implémentés en utilisant la bibliothèque de tests unitaires \verb+Unittest+. Cette bibliothèque fournit des fonctions qui testent le fonctionnement du code afin de vérifier si, par exemple, une fonction donnée lève une exception au moment voulu ou si deux objets sont égaux. 
 
 \begin{center}
 \includegraphics[scale=0.3]{tdd.png}
@@ -1121,7 +1125,7 @@ def test_computed_attribute(self):
 
 \subsection{Schéma Yams et CubicWeb}
 \paragraph{Schéma Yams}
-Pour construire et appliquer les règles aux requêtes RQL, le code écrit a dû être intégré à la structure de CubicWeb déjà en place. La règle pour être reconnue a dû être ajoutée au schéma Yams pour que les programmes reconnaissent les mots clés \verb+rule+, \verb+formula+, et \verb+cw_parameter+. Ainsi, j'ai ajouté un attribut \verb+rule+ au type d'une relation, et un attribut \verb+formula+ au schéma d'une entité. Les modifications apportées apparaissent en annexe XXX.
+Pour construire et appliquer les règles aux requêtes RQL, le code écrit a dû être intégré à la structure de CubicWeb déjà en place. La règle pour être reconnue a dû être ajoutée au schéma Yams pour que les programmes reconnaissent les mots clés \verb+rule+, \verb+formula+, et \verb+cw_parameter+. Ainsi, j'ai ajouté un attribut \verb+rule+ au type d'une relation, et un attribut \verb+formula+ au schéma d'une entité.
 
 \paragraph{CubicWeb}
 Le mécanisme de réécriture doit être appliqué avant les mécanismes de permissions et de sécurité de la requête, il a donc été appelé par le schéma CubicWeb dans un point de branchement suffisamment haut.
@@ -1132,17 +1136,17 @@ Dans une application, les données peuvent êre mises à jour très fréquemment
 
 
 \paragraph{Déclenchement de la mise à jour}
-Le \textit{hook} se déclenche à l'ajout d'une relation (\verb+events=('after_add_relation')+) et si cette relation est contenue dans une formule d'un attribut calculé (\verb+__select__=match_computed_attribute()+). Cette seconde contrainte est construite avec la fonction \verb+match_computed_attribute()+ qui se trouve en annexe XXX.
+Le \textit{hook} se déclenche à l'ajout d'une relation (\verb+events=('after_add_relation')+) et si cette relation est contenue dans une formule d'un attribut calculé (\verb+__select__=match_computed_attribute()+). Cette seconde contrainte est construite avec la fonction \verb+match_computed_attribute()+ qui se trouve en annexe B1.
 
 
 \paragraph{Implémentation du hook}
-Le \textit{hook} ci-dessous exécute la requête RQL de la formule de l'attribut calculé. La requête retourne alors la nouvelle valeur de l'attribut calculé ainsi que l'identifiant (\textit{eid}) de l'attribut calculé. Il lance alors la requête \verb+SET X attribut_calculé nouvelle_valeur WHERE X eid A+ où A est l'identifiant de l'attribut calculé. Le code complet de ce hook se trouve en annexe (XXX).
+Le \textit{hook} ci-dessous exécute la requête RQL de la formule de l'attribut calculé. La requête retourne alors la nouvelle valeur de l'attribut calculé ainsi que l'identifiant (\textit{eid}) de l'attribut calculé. Il lance alors la requête \verb+SET X attribut_calculé nouvelle_valeur WHERE X eid A+ où A est l'identifiant de l'attribut calculé. Le code complet de ce hook se trouve en annexe B1.
 
 \paragraph{Migration des applications}
 Les applications sont régulièrement mises à jours. Afin d'optimiser le coût en terme de performance de la migration d'une version à une autre, les données ne sont mises à jour que si nécessaire. Si d'une version à l'autre, la formule d'un attribut calculé change, il faut alors recalculer l'ensemble des attributs et ajouter les nouvelles valeurs au moyens d'une requête RQL de modification (\verb+SET+)
 
 \subsection{Génération de tables SQL}
-Dans le cadre de la réécriture, il était intéressant de ne pas générer la table d'une relation dont le seul but est de simplifier la réécriture. Après avoir compris le mécanisme, le programme de génération des tables SQL a été modifié en conséquence. Ces modifications se trouvent en annexe XXX.
+Dans le cadre de la réécriture, il était intéressant de ne pas générer la table d'une relation dont le seul but est de simplifier la réécriture. Après avoir compris le mécanisme, le programme de génération des tables SQL a été modifié en conséquence. Ces modifications se trouvent en annexe B2.
 
 
 \section{Communication autour du projet}
@@ -1207,10 +1211,9 @@ CSV est une repésentation des données tabulaires sous forme de valeurs sépar�
 \end{center}
 
 \paragraph{Fonctionnement}
-L'implémentation des barres de défillement, du formulaire d'options, des filtres et de la possibilités de déplacement des colonnes ont été réalisées à partir de bibliothèques javascripts. Pour obtenir un fichier CSV sous forme de tableau présentable, il a fallu décoder le fichier afin de déterminer le type de séparateur (espace, virgule, point-virgule etc.). Puis, les données sont stockés dans une matrice.
+L'implémentation des barres de défillement, du formulaire d'options, des filtres et de la possibilités de déplacement des colonnes a été réalisée à partir de bibliothèques javascripts. Pour obtenir un fichier CSV sous forme de tableau présentable, il a fallu décoder le fichier afin de déterminer le type de séparateur (espace, virgule, point-virgule etc.). Puis, les données sont stockées dans une matrice.
 
-\begin{lstlisting}[caption= code à insérer]
-\end{lstlisting}
+
 
 
 \paragraph{Apports personnels et pour Logilab}
@@ -1233,7 +1236,7 @@ Le sujet de ce stage correspond à un travail de recherche pour le développemen
 Les difficultés rencontrées résident dans la mise en place du projet puisque le sujet de stage reste prospectif. Toutefois les spécifications se sont précisées au fil des études et démonstrations que je leur ai apporté. CubicWeb étant utilisé par l'ensemble des membres de Logilab, de nombreux avis, parfois divergents, ont réorienté le projet. Je pense néanmoins avoir réussi à faire avancer le projet et CubicWeb.
 
 \paragraph{}
-Travailler sur CubicWeb m'a permis de me plonger dans le domaine de la gestion de connaissances. Cela a confirmé mon désir de me spécialiser dans le domaine de l'Ingénieurie de Connaissances et Systèmes d'Information.
+Travailler sur CubicWeb m'a permis de me plonger dans le domaine de la gestion de connaissances. Cela a confirmé mon désir de me spécialiser dans le domaine de l'Ingénierie de Connaissances et Systèmes d'Information.
 
 
 \appendix
@@ -1344,6 +1347,12 @@ class match_computed_attribute(EClassPredicate):
 		return 0
 \end{lstlisting}
 
+\section{Non génération de tables SQL pour les relations réécrites}
+
+\begin{center}
+\includegraphics[scale=0.7]{sqltable.png}
+\captionof{figure}{Modification du code existant de génération de tables SQL afin de ne pas générer les tables correspondantes aux relations réécrites}
+\end{center}
 
 
 \chapter{Glossaire}
