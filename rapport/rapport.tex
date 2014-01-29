@@ -1196,14 +1196,8 @@ Les Vsprint m'ont permis de travailler en binôme sur des sujets divers et donc 
 CSV est une repésentation des données tabulaires sous forme de valeurs séparées par des virgules ou par un quelconque séparateur comme un point-virgule. Il existait déjà un cube chargé de l'import CSV sous forme d'un tableau classique. L'objectif est de créer un nouveau cube métier et d'afficher les données tabulaires en utilisant  SlickGrid. SlickGrid est une bibliothèque Javascript permettant d'obtenir des tableaux plus élaborés. Le type de tableau attendu est un tableau capable de trier et filtrer les données, dont les dimensions sont fixes selon la page et disposant de barres de défilement.
 \subsection{Implémentation}
 
-\paragraph{Fonctionnalités implémentées}
-\begin{itemize}
-\item import du tableau
-\item barre de défillement
-\item formulaire d'options
-\item filtres
-\item possibilités de déplacement des colonnes par glissement
-\end{itemize}
+\paragraph{Fonctionnalités implémentées} Les fonctionnalités implémentées sont l'import du tableau, les barre de défillement, le formulaire d'options qui modifie l'encodage, le format de la date ou le séparateur utilisé, les filtres sur les colonnes et la possibilité de déplacer les colonnes par glissement. Toutes ces fonctionnalités décrites sont visibles sur la figure ci-dessous.
+
 
 \begin{center}
 \includegraphics[scale=0.5]{slick.png}
@@ -1212,9 +1206,6 @@ CSV est une repésentation des données tabulaires sous forme de valeurs sépar�
 
 \paragraph{Fonctionnement}
 L'implémentation des barres de défillement, du formulaire d'options, des filtres et de la possibilités de déplacement des colonnes a été réalisée à partir de bibliothèques javascripts. Pour obtenir un fichier CSV sous forme de tableau présentable, il a fallu décoder le fichier afin de déterminer le type de séparateur (espace, virgule, point-virgule etc.). Puis, les données sont stockées dans une matrice.
-
-
-
 
 \paragraph{Apports personnels et pour Logilab}
 Ce projet m'a permis d'améliorer mes connaissances et ma pratique du javascript\footnotemark[1]. Il fut également enrichissant par ma découverte de la bibliothèque SlickGrid et m'incite à découvrir les nouveautés dans le milieu de l'\textit{open source}. Pour Logilab, ce cube métier sera très utile. En effet, de nombreux projets client requièrent un import CSV, une mise une page compacte des tableaux, et des tableaux aux fonctionnalités évoluées. Une mise en forme compacte permet d'afficher le tableau sans faire défiler l'ensemble de l'écran, bien que ce dernier ait trois mille lignes.
